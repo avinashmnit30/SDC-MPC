@@ -21,6 +21,7 @@
 
 ## Implementation
 This project develops a Model Predictive Controller for Udacity's self-driving car simulator.  The project is implemented in C++ and communicates with the simulator using a local WebSocket. The simulator sends the cross track error, velocity and orientation information to the controller which sends back the steering and throttle values to control the simulated car along the reference trajectory.
+
 ![pid](./Result/mpc.gif)
 
 ## For more information and results
